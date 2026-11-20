@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme {
+  --color-night: #2a1b4d;
+  --color-night-900: #1b1133;
+  --color-night-700: #3b2a66;
+  --color-aurora-cyan: #3fd0e0;
+  --color-aurora-magenta: #e04fb0;
+  --color-deep-cyan: #0b7c8a;
+  --color-cloud: #f5f3fa;
+  --color-ink: #14121c;
+  --color-muted: #5a5670;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-sora), ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    @apply bg-cloud text-ink font-sans antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display text-night;
+    text-wrap: balance;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-aurora-magenta);
+    outline-offset: 2px;
+  }
+}
+
+@utility text-aurora {
+  background-image: linear-gradient(90deg, var(--color-aurora-cyan), var(--color-aurora-magenta));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@utility bg-aurora {
+  background-image: linear-gradient(90deg, var(--color-aurora-cyan), var(--color-aurora-magenta));
+}
+
+@utility container-site {
+  width: 100%;
+  max-width: 72rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
+  @media (width >= 40rem) {
+    padding-inline: 1.5rem;
+  }
+}
+
+@utility eyebrow {
+  @apply font-display text-xs font-medium uppercase tracking-[0.25em] text-deep-cyan;
+}
+
+@utility btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-display text-sm font-bold transition;
+}
+
+@utility btn-primary {
+  @apply bg-night text-white hover:bg-night-700;
+}
+
+@utility btn-aurora {
+  @apply bg-aurora text-night-900 shadow-lg shadow-aurora-magenta/20 hover:brightness-110;
+}
+
+@utility btn-ghost {
+  @apply border border-white/30 text-white hover:bg-white/10;
+}
+
+@utility field {
+  @apply block w-full rounded-xl border border-night/15 bg-white px-4 py-3 text-base text-ink placeholder:text-muted/60 outline-none transition focus:border-deep-cyan focus:ring-4 focus:ring-aurora-cyan/25;
+}
