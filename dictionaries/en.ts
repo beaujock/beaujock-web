@@ -1,14 +1,14 @@
 const en = {
   meta: {
-    title: "Beaujock Enterprises | Websites built in Edmonton",
+    title: "Beaujock Enterprises | High-end websites for growing businesses",
     description:
-      "Beaujock Enterprises is an Edmonton IT business building fast, mobile-friendly websites on Next.js, Tailwind CSS and Postgres, with SEO on every page.",
+      "Beaujock Enterprises is an IT business building fast, mobile-friendly websites on Next.js, Tailwind CSS and Postgres, with SEO on every page.",
     webPresenceTitle: "Web Presence packages | Beaujock Enterprises",
     webPresenceDescription:
       "Compare Spider Web, Beaver Dam and Bee Hive: custom domain, SEO on every page, databases and admin sites. Prices in CAD, from $499.",
     contactTitle: "Contact us | Beaujock Enterprises",
     contactDescription:
-      "Tell us about a personalized web presence project or ask a question. Beaujock Enterprises, Edmonton, Alberta.",
+      "Tell us about a personalized web presence project or ask a question. Beaujock Enterprises.",
     orderTitle: "Order the {name} package | Beaujock Enterprises",
     orderDescription: "Tell us about the {name} website you want: domain, pages{extra}. Setup {setup}, maintenance {maintenance} per year.",
   },
@@ -27,7 +27,7 @@ const en = {
     eyebrow: "IT services · Edmonton, Alberta",
     title1: "Websites that",
     title2: "open doors",
-    lead: "We design and build high-end websites for Edmonton businesses. Fast, mobile responsive and ready for search engines from day one.",
+    lead: "We design and build high-end websites for businesses everywhere. Fast, mobile responsive and ready for search engines from day one.",
     primary: "See the packages",
     secondary: "Talk to us",
     stackLabel: "Built with",
@@ -164,7 +164,7 @@ const en = {
     sending: "Sending…",
     successTitle: "Thank you, your message was sent.",
     successText: "We'll reply as soon as possible, usually within two business days.",
-    location: "Based in Edmonton, Alberta. Serving clients across Canada.",
+    location: "Serving clients across Canada and around the world.",
   },
   pageOptions: {
     home: "Home",
@@ -192,7 +192,7 @@ const en = {
     send: "We couldn't send your request right now. Please try again in a few minutes.",
   },
   footer: {
-    tagline: "High-end websites, built in Edmonton.",
+    tagline: "High-end websites, built for growth.",
     services: "Services",
     company: "Company",
     rights: "All rights reserved.",

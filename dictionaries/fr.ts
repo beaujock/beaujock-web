@@ -2,15 +2,15 @@ import type { Dictionary } from "./en";
 
 const fr: Dictionary = {
   meta: {
-    title: "Beaujock Enterprises | Sites web conçus à Edmonton",
+    title: "Beaujock Enterprises | Sites web haut de gamme pour les entreprises en croissance",
     description:
-      "Beaujock Enterprises est une entreprise informatique d'Edmonton qui crée des sites web rapides et adaptés aux mobiles avec Next.js, Tailwind CSS et Postgres, avec SEO sur chaque page.",
+      "Beaujock Enterprises est une entreprise informatique qui crée des sites web rapides et adaptés aux mobiles avec Next.js, Tailwind CSS et Postgres, avec SEO sur chaque page.",
     webPresenceTitle: "Forfaits Présence Web | Beaujock Enterprises",
     webPresenceDescription:
       "Comparez Spider Web, Beaver Dam et Bee Hive : domaine personnalisé, SEO sur chaque page, bases de données et sites d'administration. Prix en CAD, à partir de 499 $.",
     contactTitle: "Nous joindre | Beaujock Enterprises",
     contactDescription:
-      "Parlez-nous d'un projet de présence web personnalisé ou posez-nous une question. Beaujock Enterprises, Edmonton (Alberta).",
+      "Parlez-nous d'un projet de présence web personnalisé ou posez-nous une question. Beaujock Enterprises.",
     orderTitle: "Commander le forfait {name} | Beaujock Enterprises",
     orderDescription: "Décrivez le site {name} que vous voulez : domaine, pages{extra}. Mise en place {setup}, entretien {maintenance} par année.",
   },
@@ -29,7 +29,7 @@ const fr: Dictionary = {
     eyebrow: "Services informatiques · Edmonton (Alberta)",
     title1: "Des sites web qui",
     title2: "ouvrent des portes",
-    lead: "Nous concevons et développons des sites web haut de gamme pour les entreprises d'Edmonton. Rapides, adaptés aux mobiles et prêts pour les moteurs de recherche dès le premier jour.",
+    lead: "Nous concevons et développons des sites web haut de gamme pour les entreprises de partout. Rapides, adaptés aux mobiles et prêts pour les moteurs de recherche dès le premier jour.",
     primary: "Voir les forfaits",
     secondary: "Nous écrire",
     stackLabel: "Conçu avec",
@@ -166,7 +166,7 @@ const fr: Dictionary = {
     sending: "Envoi en cours…",
     successTitle: "Merci, votre message a été envoyé.",
     successText: "Nous vous répondrons dès que possible, habituellement en moins de deux jours ouvrables.",
-    location: "Établis à Edmonton (Alberta). Au service de clients partout au Canada.",
+    location: "Au service de clients partout au Canada et dans le monde.",
   },
   pageOptions: {
     home: "Accueil",
@@ -194,7 +194,7 @@ const fr: Dictionary = {
     send: "Impossible d'envoyer votre demande pour le moment. Veuillez réessayer dans quelques minutes.",
   },
   footer: {
-    tagline: "Des sites web haut de gamme, conçus à Edmonton.",
+    tagline: "Des sites web haut de gamme, conçus pour la croissance.",
     services: "Services",
     company: "Entreprise",
     rights: "Tous droits réservés.",

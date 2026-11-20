@@ -28,8 +28,8 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
     image: `${siteUrl}/og.png`,
     description: t.meta.description,
     inLanguage: lang === "fr" ? "fr-CA" : "en-CA",
-    address: { "@type": "PostalAddress", addressLocality: "Edmonton", addressRegion: "AB", addressCountry: "CA" },
-    areaServed: [{ "@type": "City", name: "Edmonton" }, { "@type": "Country", name: "Canada" }],
+    address: { "@type": "PostalAddress", addressRegion: "AB", addressCountry: "CA" },
+    areaServed: "Worldwide",
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: t.home.serviceTitle,
